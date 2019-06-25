@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3DBE8ECD223323DB007EFD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE8ECC223323DB007EFD19 /* AppDelegate.swift */; };
-		3DBE8ECF223323DB007EFD19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE8ECE223323DB007EFD19 /* ViewController.swift */; };
 		3DBE8ED2223323DB007EFD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBE8ED0223323DB007EFD19 /* Main.storyboard */; };
 		3DBE8ED4223323E3007EFD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBE8ED3223323E3007EFD19 /* Assets.xcassets */; };
 		3DBE8ED7223323E3007EFD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBE8ED5223323E3007EFD19 /* LaunchScreen.storyboard */; };
+		3DBE8EDF22332667007EFD19 /* MarioKartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE8EDE22332667007EFD19 /* MarioKartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DBE8EC9223323DB007EFD19 /* MarioKartGestures2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKartGestures2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBE8ECC223323DB007EFD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DBE8ECE223323DB007EFD19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DBE8ED1223323DB007EFD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DBE8ED3223323E3007EFD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DBE8ED6223323E3007EFD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DBE8ED8223323E4007EFD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBE8EDE22332667007EFD19 /* MarioKartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				3DBE8ECC223323DB007EFD19 /* AppDelegate.swift */,
-				3DBE8ECE223323DB007EFD19 /* ViewController.swift */,
 				3DBE8ED0223323DB007EFD19 /* Main.storyboard */,
+				3DBE8EDE22332667007EFD19 /* MarioKartViewController.swift */,
 				3DBE8ED3223323E3007EFD19 /* Assets.xcassets */,
 				3DBE8ED5223323E3007EFD19 /* LaunchScreen.storyboard */,
 				3DBE8ED8223323E4007EFD19 /* Info.plist */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DBE8ECF223323DB007EFD19 /* ViewController.swift in Sources */,
+				3DBE8EDF22332667007EFD19 /* MarioKartViewController.swift in Sources */,
 				3DBE8ECD223323DB007EFD19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
